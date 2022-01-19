@@ -1,0 +1,37 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+</script>
+<script>
+  $(document).ready(function(){
+   $("#b1").click(function(){
+     alert('Submitted Successfully!');
+ });
+});
+</script>
+<title>
+Railway Reservation System
+</title>
+</head>
+<body bgcolor="blue" text="white">
+<form align="center">
+<h1><marquee>Welcome to Indian Railways!</marquee></h1>
+First Name:<input type="text"><br>
+Last Name:<input type="text"><br>
+E-mail ID:<input type="text"><br>
+Travel Date:<input type="text"><br>
+<h2>Select Your Complaint Type</h2><br>
+<select type="dropdown">
+<option value="Food">Food</options>
+<option value="Bedsheet was dirty">Bedsheet was dirty</options>
+<option value="Staff not behaved properly">Staff not behaved properly</options>
+<option value="Ticket issue">Ticket issue</option>
+<option value="Chart problem">Chart problem</option>
+<option value="Delay of train">Delay of train</option>
+</select><br><br><br><br><br><br><br><br><br>
+<textarea>If You have any complaint then write here.........</textarea><br>
+</form>
+<marquee><img src="tra.jpg" width="450px" height="200px"></marquee><br><br><br><br>
+<button id="b1" align="right">Submit</button><br>
+</body>
+</html>

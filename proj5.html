@@ -1,0 +1,73 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+</script>
+<script>
+ $(document).ready(function(){
+  $("button").click(function(){
+   $("#b1").animate({left:  '50px'  }, "slow"),
+   $("div").animate({fontSize: '5em' }, "slow")
+});
+});
+</script>
+</head>
+<body bgcolor="purple" text="white">
+<marquee><h1>Welcome To Indian Railways!</h1></marquee>
+<marquee><h1>Know Seat Availability to Travel in Train</h1></marquee>
+<table align="center" cellspacing="7"cellpadding="15" border="4" bgcolor="sky blue">
+<tr>
+<td><strong>Train Name</strong></td>
+<td><strong>Seat Availability</strong></td>
+<td><strong>Waiting List</strong></td>
+<td><strong>RAC</strong></td>
+</tr>
+<tr>
+<td><strong>Jammu-Rajdhani</strong></td>
+<td><strong>250seats</strong></td>
+<td><strong>NIL</strong></td>
+<td><strong>NIL</strong></td>
+</tr>
+<tr>
+<td><strong>Vande-Bharat</strong></td>
+<td><strong>NIL</strong></td>
+<td><strong>10seats</strong></td>
+<td><strong>NIL</strong></td>
+</tr>
+<tr>
+<td><strong>Shane-Punjab</strong></td>
+<td><strong>2seats</strong></td>
+<td><strong>NIL</strong></td>
+<td><strong>NIL</strong></td>
+</tr>
+<tr>
+<td><strong>Shatabadi-Express</strong></td>
+<td><strong>NIL</strong></td>
+<td><strong>2seats</strong></td>
+<td><strong>3seats</strong></td>
+</tr>
+<tr>
+<td><strong>Punjab-mail</strong></td>
+<td><strong>NIL</strong></td>
+<td><strong>100seats</strong></td>
+<td><strong>1seat</strong></td>
+</tr>
+<tr>
+<td><strong>Tejas-Express</strong></td>
+<td><strong>50seats</strong></td>
+<td><strong>NIL</strong></td>
+<td><strong>NIL</strong></td>
+</tr>
+<tr>
+<td><strong>Howrah-Mail</strong></td>
+<td><strong>NIL</strong></td>
+<td><strong>100seats</strong></td>
+<td><strong>1seat</strong></td>
+</tr>
+</table>
+<marquee><img src="tra.jpg" width="450px" height="150px">
+<img src="sha.jpg" width="450px" height="150px">
+<img src="raj.jpg" width="450px" height="150px"></marquee>
+<div style="background-color:skyblue; border:skyblue; left:250px; padding:50; width:300; height:100; position:absolute;">Welcome!</div>
+<button id="b1">Railways</button>
+</body>
+</html>

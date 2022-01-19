@@ -1,0 +1,53 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+</script>
+<script>
+ $(document).ready(function(){
+  $("#b1").click(function(){
+   alert('Details submitted!')
+ });
+});
+ $(document).ready(function(){
+  $("#b2").click(function(){
+   alert('Your ticket is booked with no of details you entered!')
+   alert('You will recieve a soft copy of tickets via E-mail')
+ });
+});
+</script>
+</head>
+<body bgcolor="Ocean blue" text="white">
+<form align="center">
+<marquee><h1>Welcome To Indian Railways!</h1></marquee>
+<h2>Enter your details</h2>
+First Name:<input type="text" Name="First Name"><br>
+Last Name:<input type="text" Name="Last Name"><br>
+Enter Age:<input type="text" Name="age"><br>
+<p><b>Enter Your Gender : </b></p>
+Male:<input type="radio" name="gender" value="Male"><br>
+Female:<input type="radio" name="gender" value="Female"><br>
+<h2>Select the name Of train in which you want to travel:</h2>
+<select type="dropdown">
+<option value="Rajdhani Express">Rajdhani Express</option>
+<option value="Rajdhani Express">Shatabadi Express</option>
+<option value="Rajdhani Express">Punjab Mail </option>
+<option value="Rajdhani Express">Vande Bharat</option>
+<option value="Rajdhani Express">Shane-e-Punjab</option>
+</select><br><br><br>
+Enter Your Date of Journey:<input type="text"><br> 
+<h2>Select your food type which you want to have:</h2>
+<select type="dropdown">
+<option value="Veg">Veg</option>
+<option value="Non-Veg">Non-Veg</option>
+</select>
+<h2>Enter your payment method</h2><br>
+<input type="checkbox"><b>Credit card</b><br>
+<input type="checkbox"><b>Debit card</b><br>
+<input type="checkbox"><b>Paytm Pay</b><br>
+<input type="checkbox"><b>Google Pay</b><br>
+</form><br><br>
+<button id="b1">To enter others details click it!</button><br><br><br><br>
+<button id="b2">Submit</button><br>
+<marquee><img src="sha.jpg" width="950px" height="250px"></marquee>
+</body>
+</html>
